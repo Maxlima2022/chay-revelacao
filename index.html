@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Confirmação de Presença</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CHÁ REVELAÇÃO DA CHAY</h1>
+        <p>Por favor, confirme sua presença:</p>
+        
+        <form id="confirmationForm">
+            <label for="name">Seu Nome:</label>
+            <input type="text" id="name" required>
+
+            <label for="attendance">Confirmar Presença:</label>
+            <select id="attendance" required>
+                <option value="sim">Sim, estarei presente</option>
+                <option value="nao">Não poderei comparecer</option>
+            </select>
+
+           
+            <button type="button" onclick="sendWhatsAppMessage()">Confirmar via WhatsApp</button>
+        </form>
+
+        <p id="confirmationMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
