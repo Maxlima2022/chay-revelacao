@@ -5,7 +5,7 @@ function submitConfirmation() {
     var message = "Obrigado, " + name + "! Sua presença foi confirmada.";
 
     if (attendance === "nao") {
-        message = "Que pena que você não poderá comparecer, " + name + ". Esperamos vê-lo na próxima!";
+        message = " não poderei comparecer, " + name + ". Esperamos vê-lo na próxima!";
     }
 
     document.getElementById("confirmationMessage").innerHTML = message;
