@@ -45,3 +45,24 @@ button {
 button:hover {
     background-color: #45a049;
 }
+/* Estilos específicos para telas médias */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #eaeaea;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+/* Estilos específicos para telas pequenas */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #ddd;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
