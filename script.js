@@ -22,7 +22,7 @@ function sendWhatsAppMessage() {
     }
 
     // Substitua "SEU_NUMERO_DE_TELEFONE" pelo número de telefone do destinatário
-    var phoneNumber = "551195834631";
+    var phoneNumber = "5511956500823";
     
     // Construa o link do WhatsApp
     var whatsappLink = "https://wa.me/" + phoneNumber + "/?text=" + encodeURIComponent(message);
