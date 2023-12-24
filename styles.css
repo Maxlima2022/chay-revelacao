@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-   background: linear-gradient(to right, #0f13f3, #f712bd); /* Substitua com as suas cores */
+  background-image: url('FESTA.jpg'); /* Substitua com o caminho da sua imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
